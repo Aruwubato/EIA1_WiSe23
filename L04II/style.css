@@ -1,0 +1,87 @@
+*{
+    margin : 0;
+    padding: 0;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    font-size: 14.4vh;
+    position: absolute;
+    z-index: 1;
+    width: 100vh;
+    top: 100%;
+    padding: 130px 10px 5px 10px;
+    transform: rotate(-90deg) translateY(-50%);
+    transform-origin: top left;
+    background-color: rgb(206, 179, 255);
+}
+.mainImgContainer{
+    height: 100%;
+    width: 60%;
+    overflow: hidden;
+}
+.mainImg{
+    min-height: 100%;
+    min-width: 115%;
+    position: relative;
+    left: -15%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right-half-wrapper{
+    width: 40%;
+    height: 100%;
+}
+
+.top-half-wrapper{
+    height: 55%;
+    width: 100%;
+    background-color: rgb(206, 179, 255);
+    display: flex;
+}
+.title-wrapper{
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 25%;
+    height: 100%;
+    display: flex;
+    font-size: 5vh;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.line-el{
+    background-color: black;
+    width: 60%;
+    margin-top: 10%;
+    height: 0.8%;
+}
+
+.bottom-half-wrapper{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bottom-img-wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.bottom-img-wrapper img{
+    height: 100%;
+    position: relative;
+}
+
