@@ -1,5 +1,5 @@
 document.getElementById('button-container').onclick = function() {
-    alert('5 SECONDS');
+    alert('GUESS THE SONG IN 5 SECONDS');
 };
 
 document.getElementById("play1").addEventListener("click", function(){
