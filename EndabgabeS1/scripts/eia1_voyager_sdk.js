@@ -94,7 +94,7 @@ function handleLoaded() {
 
 }
 function handleTouch12() {
-
+    confirm("PLAYER 1");
 }
 function handleTouch13() {
 
@@ -106,7 +106,7 @@ function handleTouch27() {
 
 }
 function handleTouch32() {
-
+    confirm("PLAYER 2");
 }
 function handleTouch33() {
 

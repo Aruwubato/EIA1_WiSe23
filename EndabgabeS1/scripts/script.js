@@ -1,5 +1,11 @@
 document.getElementById('button-container').onclick = function() {
-    alert('GUESS THE SONG IN 5 SECONDS');
+  let person = prompt("Please enter your name");
+  let text;
+  if (person == null || person == "") {
+    alert ("Player cancelled to play.");
+  } else {
+    alert ("Ready to play " + person + "?");
+  };
 };
 
 document.getElementById("play1").addEventListener("click", function(){
