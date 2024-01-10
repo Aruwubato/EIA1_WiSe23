@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Song</title>
+    <!-- Link to the CSS file -->
+    <script defer src="eia1_voyager_sdk.js"></script>
+    <script defer src="dat.gui.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="button-container">
+        <button style= 'margin-right: 500px' class='glowing-btn'><span class='glowing-txt'>P<span class='faulty-letter'>LA</span>YER1</span></button>
+        <button class='glowing-btn'><span class='glowing-txt'>PL<span class='faulty-letter'>AY</span>ER2</span></button>
+    </div>
+    <script>
+        document.getElementById('button-container').onclick = function() {
+            alert('5 SECONDS');
+        };
+    </script>
+</body>
+</html>
